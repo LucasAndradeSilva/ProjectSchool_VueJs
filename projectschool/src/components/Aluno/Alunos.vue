@@ -17,7 +17,7 @@
           <td>{{ aluno.sobrenome }}</td>
           <td>
             <button class="btn btn_Danger" @click="remover(aluno)">Remover</button>
-          </td>
+          </td>          
         </tr>
       </tbody>
       <tfoot v-else>
